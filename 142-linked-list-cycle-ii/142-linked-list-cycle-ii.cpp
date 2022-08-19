@@ -27,7 +27,7 @@ public:
         ListNode* slow = head;
         while(slow != intersection){
             slow = slow->next;
-            if(intersection!=NULL || intersection!=NULL)
+            if(intersection!=NULL)
             intersection = intersection->next;
         }
         return slow;
